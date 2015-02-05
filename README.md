@@ -23,11 +23,21 @@ BUG反馈
     global_dbcoon = 'mysql+mysqldb://用户名:密码@数据库服务器IP:数据库端口/数据库名称'
 
 ### 安装使用
-    首先你要先安装git & nmap程序
+    首先你要先安装git & nmap & MySQL-python程序
     
     CentOS
     sudo yum -y install git
     sudo yum -y install nmap
+    sudo yum -y install python-devel mysql-devel
+    
+    # install pip
+    wget https://pypi.python.org/packages/source/p/pip/pip-6.0.8.tar.gz
+    tar zvxf pip-6.0.8.tar.gz
+    cd pip-6.0.8
+    python setup.py install
+    
+    # install MySQL-python
+    pip install MySQL-python 
     
     Kali & Ubuntu & Debian
     sudo apt-get install git
