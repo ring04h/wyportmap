@@ -26,7 +26,12 @@ BUG反馈
     usage: wyportmap.py targets taskid
     
     首先你要先安装nmap程序
+    
+    CentOS
     sudo yum -y install nmap
+    
+    Kali & Ubuntu & Debian
+    sudo apt-get install nmap
     
     告诉wyportmap.py你的扫描目标，扫描结果会自动存入数据库
     sudo python wyportmap.py 42.42.42.42-52
