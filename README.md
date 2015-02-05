@@ -23,10 +23,6 @@ BUG反馈
     global_dbcoon = 'mysql+mysqldb://用户名:密码@数据库服务器IP:数据库端口/数据库名称'
 
 ### 安装使用
-    git clone https://github.com/ring04h/wydomain.git
-    命令行使用
-    usage: wyportmap.py targets taskid
-    
     首先你要先安装git & nmap程序
     
     CentOS
@@ -39,6 +35,9 @@ BUG反馈
     
     下载wyportmap项目
     git clone https://github.com/ring04h/wyportmap.git
+    
+    命令行使用
+    usage: wyportmap.py targets taskid
     
     告诉wyportmap.py你的扫描目标，扫描结果会自动存入数据库
     sudo python wyportmap.py 42.62.78.70-100
