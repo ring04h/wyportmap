@@ -28,9 +28,10 @@ BUG反馈
 #### CentOS
     sudo yum -y install git
     
-    32位系统 nmap
+    # install nmap
+    32位系统
     sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.i386.rpm
-    64位系统 nmap
+    64位系统
     sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.x86_64.rpm
     
     sudo yum -y install python-devel mysql-devel
