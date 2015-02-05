@@ -48,7 +48,7 @@ BUG反馈
     sudo apt-get install git
     sudo apt-get install nmap
     
-    sudo apt-get install python-devel mysql-devel
+    sudo apt-get install python-dev mysql-dev
     
     # install pip
     wget https://pypi.python.org/packages/source/p/pip/pip-6.0.8.tar.gz
