@@ -27,14 +27,13 @@ BUG反馈
     
 #### CentOS
     sudo yum -y install git
+    sudo yum -y install python-devel mysql-devel subversion-devel
     
     # install nmap
     # 32位系统
-    sudo rpm -vhU https://nmap.org/dist/nmap-6.40-1.i386.rpm
+    sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.i386.rpm
     # 64位系统
-    sudo rpm -vhU https://nmap.org/dist/nmap-6.40-1.x86_64.rpm
-    
-    sudo yum -y install python-devel mysql-devel
+    sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.x86_64.rpm
     
     # install pip
     wget https://pypi.python.org/packages/source/p/pip/pip-6.0.8.tar.gz
