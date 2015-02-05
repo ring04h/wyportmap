@@ -14,7 +14,8 @@
     使用的ORM架构，会自动创建数据库表和数据结构
     
     修改wyportmap.py文件第18行
-    global_dbcoon = 'mysql+mysqldb://用户名:密码@数据库服务器:数据库端口/数据库名称'
+    global_dbcoon = 'mysql+mysqldb://用户名:密码@数据库服务器IP:数据库端口/数据库名称'
+    # global_dbcoon = 'mysql+mysqldb://root:123456@127.0.0.1:3306/wyportmap'
 
 ### 命令行使用
     usage: wyportmap.py targets taskid
