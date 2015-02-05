@@ -29,9 +29,9 @@ BUG反馈
     sudo yum -y install git
     
     # install nmap
-    32位系统
+    # 32位系统
     sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.i386.rpm
-    64位系统
+    # 64位系统
     sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.x86_64.rpm
     
     sudo yum -y install python-devel mysql-devel
@@ -48,6 +48,7 @@ BUG反馈
 #### Kali & Ubuntu & Debian
     sudo apt-get install git
     sudo apt-get install nmap
+    
     sudo apt-get install python-devel mysql-devel
     
     # install pip
