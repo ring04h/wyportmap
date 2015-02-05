@@ -36,6 +36,8 @@ BUG反馈
     cd nmap-6.40
     ./configure
     make & make install
+    mv /usr/bin/nmap /usr/bin/nmap.bak
+    ln -s /usr/local/bin/nmap /usr/bin/nmap
     
     sudo yum -y install python-devel mysql-devel
     
@@ -59,6 +61,8 @@ BUG反馈
     cd nmap-6.40
     ./configure
     make & make install
+    mv /usr/bin/nmap /usr/bin/nmap.bak
+    ln -s /usr/local/bin/nmap /usr/bin/nmap
     
     sudo apt-get install python-devel mysql-devel
     
