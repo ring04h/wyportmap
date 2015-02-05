@@ -28,16 +28,10 @@ BUG反馈
 #### CentOS
     sudo yum -y install git
     
-    # install nmap 6.40
-    sudo yum -y install gcc+ gcc-c++
-    rpm -e nmap
-    wget  http://nmap.org/dist/nmap-6.40.tar.bz2
-    tar -vxf nmap-6.40.tar.bz2
-    cd nmap-6.40
-    ./configure
-    make & make install
-    mv /usr/bin/nmap /usr/bin/nmap.bak
-    ln -s /usr/local/bin/nmap /usr/bin/nmap
+    32位系统 nmap
+    sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.i386.rpm
+    64位系统 nmap
+    sudo rpm -vhU https://nmap.org/dist/nmap-6.47-1.x86_64.rpm
     
     sudo yum -y install python-devel mysql-devel
     
