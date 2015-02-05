@@ -30,6 +30,7 @@ BUG反馈
     sudo yum -y install nmap
     
     # install nmap 6.40
+    sudo yum -y install gcc+ gcc-c++
     wget  http://nmap.org/dist/nmap-6.40.tar.bz2
     tar -vxf nmap-6.40.tar.bz2
     cd nmap-6.40
@@ -52,6 +53,7 @@ BUG反馈
     sudo apt-get install nmap
     
     # install nmap 6.40
+    sudo apt-get install gcc+ gcc-c++
     wget  http://nmap.org/dist/nmap-6.40.tar.bz2
     tar -vxf nmap-6.40.tar.bz2
     cd nmap-6.40
