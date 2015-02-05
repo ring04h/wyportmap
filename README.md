@@ -46,18 +46,7 @@ BUG反馈
     
 #### Kali & Ubuntu & Debian
     sudo apt-get install git
-    
-    # install nmap 6.40
-    sudo apt-get install gcc+ gcc-c++
-    sudo apt-get remove nmap
-    wget  http://nmap.org/dist/nmap-6.40.tar.bz2
-    tar -vxf nmap-6.40.tar.bz2
-    cd nmap-6.40
-    ./configure
-    make & make install
-    mv /usr/bin/nmap /usr/bin/nmap.bak
-    ln -s /usr/local/bin/nmap /usr/bin/nmap
-    
+    sudo apt-get install nmap
     sudo apt-get install python-devel mysql-devel
     
     # install pip
