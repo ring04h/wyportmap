@@ -27,10 +27,10 @@ BUG反馈
     
 #### CentOS
     sudo yum -y install git
-    sudo yum -y install nmap
     
     # install nmap 6.40
     sudo yum -y install gcc+ gcc-c++
+    rpm -e nmap
     wget  http://nmap.org/dist/nmap-6.40.tar.bz2
     tar -vxf nmap-6.40.tar.bz2
     cd nmap-6.40
@@ -52,10 +52,10 @@ BUG反馈
     
 #### Kali & Ubuntu & Debian
     sudo apt-get install git
-    sudo apt-get install nmap
     
     # install nmap 6.40
     sudo apt-get install gcc+ gcc-c++
+    sudo apt-get remove nmap
     wget  http://nmap.org/dist/nmap-6.40.tar.bz2
     tar -vxf nmap-6.40.tar.bz2
     cd nmap-6.40
