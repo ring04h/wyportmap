@@ -16,6 +16,7 @@ timeout = 3600
 
 # 数据库连接 & 全局扫描参数
 global_dbcoon = 'mysql+mysqldb://celery:celery1@3Wscan@42.62.52.62:443/wscan'
+# global_dbcoon = 'mysql+mysqldb://用户名:密码@数据库服务器IP:数据库端口/数据库名称'
 global_options = '-sT -P0 -sV -O --script=banner -p T:21-25,80-89,110,143,443,513,873,1080,1433,1521,1158,3306-3308,3389,3690,5900,6379,7001,8000-8090,9000,9418,27017-27019,50060,111,11211,2049'
 
 # 处理端口状态
@@ -42,7 +43,8 @@ def do_nmap_scan(targets, options=global_options):
 					print '-' * 50
 					print "* timeout. terminate it..."
 					nmap_proc.stop()
-					# sleep(60)
+					# 休眠时间
+					sleep(60)
 					trycnt += 1
 					break
 				else:
