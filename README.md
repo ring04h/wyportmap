@@ -68,3 +68,5 @@ BUG反馈
     告诉wyportmap.py你的扫描目标，扫描结果会自动存入数据库
     sudo python wyportmap.py 42.62.78.70-100
     
+#### 将端口扫描结果存入mongodb
+    python wyportmap_mongo.py www.njupt.edu.cn
